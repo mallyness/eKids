@@ -1,0 +1,13 @@
+package interfaces.task;
+
+public class Rectangle extends Shape implements Drawable {
+
+    public Rectangle(int x, int y) {
+        super(x, y);
+    }
+
+    @Override
+    public void draw() {
+        System.out.printf("Circle with coordinates x=%d, y=%d was drawn.%n", x, y);
+    }
+}
