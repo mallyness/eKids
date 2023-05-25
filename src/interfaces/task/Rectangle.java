@@ -8,6 +8,6 @@ public class Rectangle extends Shape implements Drawable {
 
     @Override
     public void draw() {
-        System.out.printf("Circle with coordinates x=%d, y=%d was drawn.%n", x, y);
+        System.out.printf("Rectangle with coordinates x=%d, y=%d was drawn.%n", x, y);
     }
 }
